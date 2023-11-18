@@ -5,6 +5,8 @@ st.title("차건우")
 
 tab1, tab2, tab3 = st.tabs(["Home", "About me", "Projects"])
 
+t = pd.read_csv("train.csv")
+
 with tab1:
    st.header("Titanic Dataset", divider='gray')
    st.image("https://static.streamlit.io/examples/titanic.jpeg", width=200)
