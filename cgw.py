@@ -7,7 +7,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "About me", "Projects"])
 
 with tab1:
    st.header("Titanic Dataset", divider='gray')
-   st.image("https://static.streamlit.io/examples/titanic image.jpeg", width=200)
+   st.image("https://static.streamlit.io/examples/titanic.jpeg", width=200)
 
 with tab2:
    st.header("A dog")
