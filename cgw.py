@@ -6,7 +6,7 @@ st.title("차건우")
 tab1, tab2, tab3 = st.tabs(["Home", "About me", "Projects"])
 
 with tab1:
-   st.header("Titanic Dataset", divider='rainbow')
+   st.header("Titanic Dataset", divider='gray')
    st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
 
 with tab2:
@@ -21,4 +21,4 @@ t = pd.read_csv("train.csv")
 
 st.dataframe(t)
 
-st.header('Survival Rate', divider='rainbow')
+st.header('Survival Rate', divider='gray')
