@@ -8,6 +8,7 @@ tab1, tab2, tab3 = st.tabs(["Home", "About me", "Projects"])
 with tab1:
    st.header("Titanic Dataset", divider='gray')
    st.image("https://static.streamlit.io/examples/titanic.jpeg", width=200)
+   tab1, tab2, tab3 = st.tabs(["Sex", "Pclass", "Embarked"])
 
 with tab2:
    st.header("A dog")
