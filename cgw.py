@@ -20,3 +20,5 @@ with tab3:
 t = pd.read_csv("train.csv")
 
 st.dataframe(t)
+
+st.header('Survival Rate', divider='rainbow')
